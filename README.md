@@ -1,2 +1,2 @@
-# apuUsers
+# apuIsers
 You can search GitHub Users
