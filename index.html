@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Github search user using API</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" >
+ </head>
+ <body>
+     <div class="page-wrap">
+         <div class="container1">
+
+             <div class="bubble-div">
+                 <div class="bubble1"></div>
+                 <div class="bubble2"></div>
+             </div>
+
+             <section class="section1">
+                 <header>
+                     <div class="background-image">
+                     <img class="image-style1" src="images/github-logo-white.png" alt="Github Logo for web" />
+                     </div>
+                   <h1 class="heading1">Github Search User <span class="span1">API</span></h1>
+                 </header>
+                 <form id="myForm" autocomplete="on">
+                     <div class="form-div">
+                         <input class="input-style" type="text" id="search" placeholder="Search GitHub User" required />
+                         <button onclick="visible()" class="button1"><img class="searchimage" src="images/searchimage1.png" alt="Search image for github users" /></button></a>
+                     </div>
+                 </form>
+
+                 <div id="control-user-info">
+                    <div id="result-img"></div>
+                    <div id="result-name"></div>
+                    <ul id="result-user" class="ul-style">
+                    </ul>
+                 </div>
+
+             </section>
+
+             <section class="section2">
+                 <header class="header2">
+                     <h1 class="heading1"> Most Popular <span class="span1">USERS</span></h1>
+                 </header>
+
+                 <div class="container-for-btn">
+                    <label class="switch">
+                        <input id="toggle" type="checkbox">
+                        <span class="slider"></span>
+                      </label>
+                 </div>
+
+
+                 <div id="api-popular-users">
+                     
+                     </div>
+
+                 </div>
+             </section>
+
+
+         </div>
+     </div>
+
+     <script src="app.js"></script>
+ </body>
+ <footer>
+
+ </footer>
+</html>
